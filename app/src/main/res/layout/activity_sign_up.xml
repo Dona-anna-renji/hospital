@@ -1,0 +1,144 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+
+        android:gravity="center"
+        android:background="#090101"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="SIGN UP"
+            android:gravity="center"
+            android:textSize="20sp"
+            style="bold"
+            android:layout_margin="20dp">
+
+        </TextView>
+        <TextView
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="name"
+            />
+        <EditText
+            android:id="@+id/suser"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <TextView
+            android:textSize="16dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Address"
+            />
+        <EditText
+
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <TextView
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="pincode"
+            />
+
+        <EditText
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <TextView
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="mobile number"
+            />
+
+        <EditText
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <TextView
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="pincode"
+            />
+
+        <EditText
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <TextView
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="username"
+            />
+        <EditText
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <TextView
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="password"
+            />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+        <TextView
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=" confirm password"
+            />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ssign"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+           android:background="@drawable/round_button"
+            android:text="sign up"
+            android:textSize="15dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sback"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@drawable/round_button"
+            android:text="back to register"
+            android:textSize="15dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

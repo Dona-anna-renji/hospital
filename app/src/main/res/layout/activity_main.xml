@@ -1,0 +1,60 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    android:gravity="center"
+    android:background="#090101"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="16dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="user name">
+
+    </TextView>
+    <EditText
+    android:id="@+id/uname"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    </EditText>
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="password">
+
+    </TextView>
+    <EditText
+        android:id="@+id/upass"
+
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    </EditText>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ulogin"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/round_button"
+        android:text="login"
+        android:textSize="15dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ureg"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       android:background="@drawable/round_button"
+        android:text="go to register"
+        android:textSize="15dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>
